@@ -1,22 +1,17 @@
 import { Button } from "@/components/ui/button";
 import { Menu, Phone, Mail } from "lucide-react";
 import { useState } from "react";
-
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+  return <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-primary to-primary-dark flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-sm">RC</span>
-            </div>
+            
             <div>
-              <h1 className="text-xl font-bold text-foreground">RepCom</h1>
-              <p className="text-xs text-muted-foreground">Representação Comercial</p>
+              <h1 className="text-xl font-bold text-[#1b9128]">Antonelli Representação</h1>
+              
             </div>
           </div>
 
@@ -53,19 +48,13 @@ const Header = () => {
           </div>
 
           {/* Mobile Menu Button */}
-          <Button
-            variant="ghost"
-            size="icon"
-            className="md:hidden"
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-          >
+          <Button variant="ghost" size="icon" className="md:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)}>
             <Menu className="h-5 w-5" />
           </Button>
         </div>
 
         {/* Mobile Menu */}
-        {isMenuOpen && (
-          <div className="md:hidden py-4 border-t">
+        {isMenuOpen && <div className="md:hidden py-4 border-t">
             <nav className="flex flex-col space-y-4">
               <a href="#inicio" className="text-foreground hover:text-primary transition-colors">
                 Início
@@ -88,11 +77,8 @@ const Header = () => {
                 </Button>
               </div>
             </nav>
-          </div>
-        )}
+          </div>}
       </div>
-    </header>
-  );
+    </header>;
 };
-
 export default Header;
