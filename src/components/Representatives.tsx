@@ -6,12 +6,12 @@ import { ExternalLink, Star, TrendingUp, Package } from "lucide-react";
 const Representatives = () => {
   const representatives = [
     {
-      name: "TechSolutions Brasil",
-      category: "Tecnologia",
-      description: "Líder em soluções tecnológicas para empresas, oferecendo produtos inovadores para automação e digitalização.",
-      highlights: ["Inovação", "Suporte 24/7", "Treinamento"],
-      rating: 4.9,
-      growth: "+25%"
+      name: "Cofer Aço e Ferro",
+      category: "Metalurgia",
+      description: "Líder em soluções em aço e ferro para construção civil e indústria, oferecendo produtos de alta qualidade e resistência.",
+      highlights: ["Alta Resistência", "Certificação ISO", "Entrega Rápida"],
+      rating: 4.8,
+      growth: "+20%"
     },
     {
       name: "Industrial Máquinas",
