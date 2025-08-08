@@ -36,22 +36,6 @@ const Representatives = () => {
       highlights: ["Qualidade Superior", "Logística Rápida", "Variedade"],
       rating: 4.9,
       growth: "+22%"
-    },
-    {
-      name: "Construção Forte",
-      category: "Construção",
-      description: "Materiais de construção de alta durabilidade para obras residenciais e comerciais.",
-      highlights: ["Durabilidade", "Preço Competitivo", "Entrega Rápida"],
-      rating: 4.6,
-      growth: "+15%"
-    },
-    {
-      name: "Moda & Estilo",
-      category: "Vestuário",
-      description: "Marca de roupas corporativas e casuais com design moderno e qualidade excepcional.",
-      highlights: ["Design Exclusivo", "Conforto", "Personalização"],
-      rating: 4.8,
-      growth: "+28%"
     }
   ];
 
