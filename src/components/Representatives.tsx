@@ -8,7 +8,7 @@ const Representatives = () => {
     {
       name: "Cofer Aço e Ferro",
       category: "Metalurgia",
-      description: "Líder em soluções em aço e ferro para construção civil e indústria, oferecendo produtos de alta qualidade e resistência.",
+      description: "Tradição e alta tecnologia em aço: a Cofer é referência no Brasil há mais de 35 anos no fornecimento de aço cortado e dobrado para a construção civil, com presença marcante em Guararema/SP.",
       highlights: ["Alta Resistência", "Certificação ISO", "Entrega Rápida"],
       rating: 4.8,
       growth: "+20%"
