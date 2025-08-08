@@ -22,12 +22,12 @@ const Representatives = () => {
       growth: "+32%"
     },
     {
-      name: "Verde & Sustentável",
-      category: "Sustentabilidade",
-      description: "Produtos ecológicos e sustentáveis para empresas comprometidas com o meio ambiente.",
-      highlights: ["Eco-friendly", "Certificação Verde", "Economia"],
-      rating: 4.7,
-      growth: "+30%"
+      name: "IsoRecort",
+      category: "Isolamento",
+      description: "Especialista em soluções de isolamento térmico e acústico para indústria e construção civil.",
+      highlights: ["Eficiência Térmica", "Acústica Avançada", "Durabilidade"],
+      rating: 4.8,
+      growth: "+25%"
     },
     {
       name: "Alimentícia Premium",
