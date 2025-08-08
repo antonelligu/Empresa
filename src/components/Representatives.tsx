@@ -14,12 +14,12 @@ const Representatives = () => {
       growth: "+20%"
     },
     {
-      name: "Industrial Máquinas",
-      category: "Equipamentos",
-      description: "Fabricante de equipamentos industriais de alta qualidade com mais de 20 anos de mercado.",
-      highlights: ["Qualidade Premium", "Garantia Estendida", "Manutenção"],
-      rating: 4.8,
-      growth: "+18%"
+      name: "Tech4Con",
+      category: "Tecnologia",
+      description: "Especialista em soluções tecnológicas para construção civil, oferecendo equipamentos e sistemas de automação.",
+      highlights: ["Automação", "Controle Digital", "Eficiência"],
+      rating: 4.9,
+      growth: "+32%"
     },
     {
       name: "Verde & Sustentável",
