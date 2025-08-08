@@ -16,7 +16,7 @@ const Representatives = () => {
     {
       name: "Tech4Con",
       category: "Tecnologia",
-      description: "Especialista em soluções tecnológicas para construção civil, oferecendo equipamentos e sistemas de automação.",
+      description: "Inovação que transforma concreto em desempenho: a Tech4Con oferece soluções tecnológicas como macro e microfibras sintéticas e aditivos especiais para reforço estrutural, elevando resistência e durabilidade da sua obra. Menos problema, mais resultado: com suporte técnico dedicado e compromisso real com performance, da obra ao acabamento, você ganha em tempo, recursos e tranquilidade. Tecnologia e sustentabilidade caminhando juntas: além da alta performance, a Tech4Con está alinhada aos Objetivos de Desenvolvimento Sustentável, garantindo soluções mais conscientes para a construção civil.",
       highlights: ["Automação", "Controle Digital", "Eficiência"],
       rating: 4.9,
       growth: "+32%"
