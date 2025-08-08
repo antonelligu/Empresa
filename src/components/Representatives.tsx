@@ -8,7 +8,7 @@ const Representatives = () => {
     {
       name: "Cofer Aço e Ferro",
       category: "Metalurgia",
-      description: "Tradição e alta tecnologia em aço: a Cofer é referência no Brasil há mais de 35 anos no fornecimento de aço cortado e dobrado para a construção civil, com presença marcante em Guararema/SP.",
+      description: "Tradição e alta tecnologia em aço: a Cofer é referência no Brasil há mais de 35 anos no fornecimento de aço cortado e dobrado para a construção civil, com presença marcante em Guararema/SP. Soluções precisas para sua obra: oferecemos corte e dobra sob medida, reduzindo desperdícios, otimizando prazos e garantindo resultados seguros e eficientes. Excelência em toda a entrega: com equipe especializada e logística de ponta, atendemos todo o Estado de São Paulo com agilidade, inovação e qualidade.",
       highlights: ["Alta Resistência", "Certificação ISO", "Entrega Rápida"],
       rating: 4.8,
       growth: "+20%"
