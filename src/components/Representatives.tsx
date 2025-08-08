@@ -30,12 +30,12 @@ const Representatives = () => {
       growth: "+25%"
     },
     {
-      name: "Alimentícia Premium",
-      category: "Alimentos",
-      description: "Distribuidor de produtos alimentícios premium para redes de supermercados e restaurantes.",
-      highlights: ["Qualidade Superior", "Logística Rápida", "Variedade"],
+      name: "Concrebase",
+      category: "Concreto",
+      description: "Fornecedor de concreto usinado e soluções em bases para construção civil e obras de infraestrutura.",
+      highlights: ["Concreto Premium", "Agilidade na Entrega", "Controle de Qualidade"],
       rating: 4.9,
-      growth: "+22%"
+      growth: "+18%"
     }
   ];
 
