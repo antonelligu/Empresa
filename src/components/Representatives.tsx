@@ -24,7 +24,7 @@ const Representatives = () => {
     {
       name: "IsoRecort",
       category: "Isopor",
-      description: "Especialista em soluções de isolamento térmico e acústico para indústria e construção civil.",
+      description: "Há mais de 18 anos, o Grupo Isorecort é referência nacional na transformação de EPS (poliestireno expandido), oferecendo soluções inovadoras, leves e sustentáveis para diversos segmentos. Com tecnologia de ponta, certificação ISO 9001 e compromisso ambiental, desenvolvemos produtos de alta performance para construção civil, indústria, refrigeração, embalagens, agricultura e muito mais. Nossa missão é entregar qualidade, praticidade e eficiência, sempre com atendimento personalizado e logística ágil para todo o Brasil. Seja qual for o seu projeto, nós temos a solução ideal em EPS para transformar suas ideias em realidade.",
       highlights: ["Eficiência Térmica", "Acústica Avançada", "Durabilidade"],
       rating: 4.8,
       growth: "+25%"
