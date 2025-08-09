@@ -23,7 +23,7 @@ const Representatives = () => {
     },
     {
       name: "IsoRecort",
-      category: "Isolamento",
+      category: "Isopor",
       description: "Especialista em soluções de isolamento térmico e acústico para indústria e construção civil.",
       highlights: ["Eficiência Térmica", "Acústica Avançada", "Durabilidade"],
       rating: 4.8,
