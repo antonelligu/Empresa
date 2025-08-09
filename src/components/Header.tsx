@@ -44,11 +44,11 @@ const Header = () => {
             <div className="text-sm text-muted-foreground">
               <div className="flex items-center space-x-1">
                 <Phone className="h-3 w-3" />
-                <span>(11) 9999-9999</span>
+                <span>(19) 9 9763-0922</span>
               </div>
             </div>
             <a
-              href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20gostaria%20de%20falar%20com%20a%20SupplyTec"
+              href="https://wa.me/5519997630922?text=Ol%C3%A1%2C%20gostaria%20de%20falar%20com%20a%20SupplyTec"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Abrir conversa no WhatsApp com a SupplyTec"
@@ -92,7 +92,7 @@ const Header = () => {
                   Solicitar Contato
                 </Button>
                 <a
-                  href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20gostaria%20de%20falar%20com%20a%20SupplyTec"
+                  href="https://wa.me/5519997630922?text=Ol%C3%A1%2C%20gostaria%20de%20falar%20com%20a%20SupplyTec"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Abrir conversa no WhatsApp com a SupplyTec"
