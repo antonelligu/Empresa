@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Menu, Phone, Mail } from "lucide-react";
 import { useState } from "react";
+import supplytecLogo from "@/assets/supplytec-logo.png";
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -8,10 +9,14 @@ const Header = () => {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            
+            <img
+              src={supplytecLogo}
+              alt="Logotipo da SupplyTec"
+              className="h-8 w-auto"
+              loading="lazy"
+            />
             <div>
-              <h1 className="text-xl font-bold text-[#1b9128]">Antonelli Representação</h1>
-              
+              <h1 className="text-xl font-bold text-primary">SupplyTec</h1>
             </div>
           </div>
 
