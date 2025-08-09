@@ -32,7 +32,7 @@ const Representatives = () => {
     {
       name: "Concrebase",
       category: "Concreto",
-      description: "Fornecedor de concreto usinado e soluções em bases para construção civil e obras de infraestrutura.",
+      description: "Desde 1991, a Concrebase é sinônimo de qualidade, confiança e agilidade no fornecimento de concreto e argamassa. Com 25 centrais 100% automatizadas e mais de 300 betoneiras em operação, atendemos com eficiência mais de 70 municípios no interior e na região metropolitana de São Paulo. Investimos continuamente em tecnologia, logística e capacitação para oferecer soluções personalizadas que atendem às necessidades de cada obra. Nosso compromisso é garantir o melhor produto, no prazo certo, com o suporte de uma equipe especializada e dedicada ao sucesso do seu projeto.",
       highlights: ["Concreto Premium", "Agilidade na Entrega", "Controle de Qualidade"],
       rating: 4.9,
       growth: "+18%"
