@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Menu, Phone, Mail } from "lucide-react";
+import { Menu, Phone, MessageCircle } from "lucide-react";
 import { useState } from "react";
 import supplytecLogo from "@/assets/supplytec-logo.png";
 const Header = () => {
@@ -12,7 +12,7 @@ const Header = () => {
             <img
               src={supplytecLogo}
               alt="Logotipo da SupplyTec"
-              className="h-8 w-auto"
+              className="h-10 md:h-12 w-auto"
               loading="lazy"
             />
             <div>
@@ -47,6 +47,17 @@ const Header = () => {
                 <span>(11) 9999-9999</span>
               </div>
             </div>
+            <a
+              href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20gostaria%20de%20falar%20com%20a%20SupplyTec"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Abrir conversa no WhatsApp com a SupplyTec"
+            >
+              <Button variant="cta" size="sm">
+                <MessageCircle className="mr-2 h-4 w-4" />
+                WhatsApp
+              </Button>
+            </a>
             <Button variant="cta" size="sm">
               Solicitar Contato
             </Button>
@@ -80,6 +91,18 @@ const Header = () => {
                 <Button variant="cta" className="w-full">
                   Solicitar Contato
                 </Button>
+                <a
+                  href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20gostaria%20de%20falar%20com%20a%20SupplyTec"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Abrir conversa no WhatsApp com a SupplyTec"
+                  className="mt-2 block"
+                >
+                  <Button variant="cta" className="w-full">
+                    <MessageCircle className="mr-2 h-4 w-4" />
+                    WhatsApp
+                  </Button>
+                </a>
               </div>
             </nav>
           </div>}
