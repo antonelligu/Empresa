@@ -66,7 +66,7 @@ const Contact = () => {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <p className="font-semibold text-foreground">(11) 9999-9999</p>
+                <p className="font-semibold text-foreground">(19) 9 9763 0922</p>
                 <p className="text-sm text-muted-foreground">WhatsApp disponível</p>
               </CardContent>
             </Card>
