@@ -1,12 +1,12 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { 
-  Users, 
-  BarChart3, 
-  MapPin, 
-  Headphones, 
-  FileText, 
-  Target,
+import {
+  MessageCircle,
+  Package,
+  ClipboardList,
+  Headphones,
+  FileText,
+  Truck,
   ArrowRight,
   CheckCircle
 } from "lucide-react";
@@ -14,40 +14,40 @@ import {
 const Services = () => {
   const services = [
     {
-      icon: Users,
-      title: "Gestão de Vendas",
-      description: "Desenvolvimento e execução de estratégias de vendas personalizadas para cada representada.",
-      features: ["Prospecção de clientes", "Negociação especializada", "Follow-up de vendas", "CRM dedicado"]
+      icon: MessageCircle,
+      title: "Atendimento via WhatsApp",
+      description: "Canal direto e ágil para tirar dúvidas, receber pedidos e agilizar negociações.",
+      features: ["Resposta rápida", "Mensagens pré-configuradas", "Envio de catálogos", "Atendimento humanizado"]
     },
     {
-      icon: BarChart3,
-      title: "Análise de Mercado",
-      description: "Estudos detalhados do mercado para identificar oportunidades e otimizar resultados.",
-      features: ["Pesquisa de mercado", "Análise da concorrência", "Relatórios de performance", "Insights estratégicos"]
-    },
-    {
-      icon: MapPin,
-      title: "Expansão Regional",
-      description: "Apoio na expansão para novas regiões com nossa rede nacional de contatos.",
-      features: ["Mapeamento de mercado", "Parcerias locais", "Distribuição estratégica", "Suporte regional"]
-    },
-    {
-      icon: Headphones,
-      title: "Suporte Especializado",
-      description: "Atendimento dedicado para clientes e suporte técnico especializado.",
-      features: ["Atendimento 24/7", "Suporte técnico", "Treinamento de equipes", "Consultoria especializada"]
+      icon: Package,
+      title: "Catálogo de Produtos",
+      description: "Apresentação organizada das linhas das representadas para facilitar a escolha do cliente.",
+      features: ["Especificações técnicas", "Fotos e fichas", "Linhas por segmento", "Atualização constante"]
     },
     {
       icon: FileText,
-      title: "Gestão Comercial",
-      description: "Administração completa dos processos comerciais e documentação.",
-      features: ["Contratos e propostas", "Gestão de pedidos", "Controle de estoque", "Relatórios financeiros"]
+      title: "Propostas e Orçamentos",
+      description: "Geração de cotações claras e detalhadas para acelerar a tomada de decisão.",
+      features: ["Templates padronizados", "Condições comerciais", "Envio por e-mail/WhatsApp", "Revisões rápidas"]
     },
     {
-      icon: Target,
-      title: "Marketing Estratégico",
-      description: "Desenvolvimento de campanhas de marketing focadas em resultados.",
-      features: ["Campanhas digitais", "Material promocional", "Eventos e feiras", "Branding estratégico"]
+      icon: ClipboardList,
+      title: "CRM e Follow‑up",
+      description: "Acompanhamento de oportunidades e relacionamento contínuo para aumentar conversão.",
+      features: ["Pipeline de vendas", "Tarefas e lembretes", "Histórico de contatos", "Métricas de conversão"]
+    },
+    {
+      icon: Headphones,
+      title: "Suporte Técnico das Representadas",
+      description: "Acesso aos times técnicos para especificações, ensaios e apoio em obra.",
+      features: ["Especificação correta", "Laudos e fichas técnicas", "Treinamentos", "Acompanhamento in loco"]
+    },
+    {
+      icon: Truck,
+      title: "Logística e Entrega",
+      description: "Coordenação com as representadas para garantir prazos e entregas sem complicação.",
+      features: ["Agendamento de entrega", "Rastreamento", "Documentação completa", "Pós-venda ativo"]
     }
   ];
 
@@ -56,11 +56,11 @@ const Services = () => {
       <div className="container mx-auto px-4 lg:px-8">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-            Nossos Serviços
+            Ferramentas que Utilizamos
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Oferecemos um conjunto completo de serviços para maximizar o potencial 
-            de vendas das nossas representadas e garantir resultados excepcionais.
+            Estas são as ferramentas e processos que usamos no dia a dia para dar velocidade,
+            transparência e resultado às vendas das nossas representadas.
           </p>
         </div>
 
