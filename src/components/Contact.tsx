@@ -5,13 +5,11 @@ import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { 
-  Phone, 
   Mail, 
   MapPin, 
   Clock,
   Send,
-  MessageSquare,
-  Building
+  MessageSquare
 } from "lucide-react";
 import { useState } from "react";
 
@@ -55,21 +53,6 @@ const Contact = () => {
         <div className="grid lg:grid-cols-3 gap-8">
           {/* Contact Info */}
           <div className="space-y-6">
-            <Card className="border-2 border-primary/10">
-              <CardHeader>
-                <div className="h-12 w-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
-                  <Phone className="h-6 w-6 text-primary" />
-                </div>
-                <CardTitle className="text-lg">Telefone</CardTitle>
-                <CardDescription>
-                  Entre em contato direto conosco
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <p className="font-semibold text-foreground">(19) 9 9763 0922</p>
-                <p className="text-sm text-muted-foreground">WhatsApp disponível</p>
-              </CardContent>
-            </Card>
 
             <Card className="border-2 border-primary/10">
               <CardHeader>
