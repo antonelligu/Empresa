@@ -53,7 +53,7 @@ const Contact = () => {
         <div className="grid lg:grid-cols-3 gap-8">
           {/* Contact Info */}
           <div className="space-y-6">
-
+            
             <Card className="border-2 border-primary/10">
               <CardHeader>
                 <div className="h-12 w-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
@@ -65,7 +65,7 @@ const Contact = () => {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <p className="font-semibold text-foreground">contato@repcom.com.br</p>
+                <p className="font-semibold text-foreground">comercial@supplytec.net</p>
                 <p className="text-sm text-muted-foreground">Resposta em até 2h</p>
               </CardContent>
             </Card>
@@ -190,7 +190,7 @@ const Contact = () => {
                     <Textarea
                       id="message"
                       placeholder="Conte-nos sobre seu interesse, necessidades ou dúvidas..."
-                      className="min-h-[120px]"
+                      className="minh-[120px]"
                       value={formData.message}
                       onChange={(e) => handleInputChange("message", e.target.value)}
                       required
